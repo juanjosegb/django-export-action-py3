@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="django-export-action-py3",
-    version="0.4",
+    version="0.5",
     author="Juan José Garcia",
     author_email="juanjose.garciabeza@hotmail.com",
     description="Generic export action for Django's Admin for Python 3.6 and Django 2.x",
@@ -26,6 +26,7 @@ setuptools.setup(
         'Framework :: Django :: 1.9',
         'Framework :: Django :: 1.10',
         'Framework :: Django :: 1.11',
+        'Framework :: Django :: 2.2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',

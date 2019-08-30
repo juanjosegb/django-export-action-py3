@@ -11,7 +11,7 @@ Include it on INSTALLED_APPS:
 ```
 Add to urls:
 ```
-url(r'^export_action/', include("export_action.urls", namespace="export_action")),
+path(r'^export_action/', include("export_action.urls", namespace="export_action")),
 ```
 ## Usage
 Go to any admin page, select fields, then select the export to xls action. Then check off any fields you want to export.

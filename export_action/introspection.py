@@ -109,7 +109,6 @@ def get_related_fields(model_class, field_name, path=""):
     if field_name:
         field, model, direct, m2m = _get_field_by_name(model_class, field_name)
         if direct:
-            # Direct field
             try:
                 new_model = _get_remote_field(field).parent_model()
             except AttributeError:
