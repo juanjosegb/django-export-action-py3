@@ -10,7 +10,7 @@ setuptools.setup(
     description="Generic export action for Django's Admin for Python 3.6 and Django 2.x",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/juanjosegb/django-export-action_py3",
+    url="https://github.com/juanjosegb/django-export-action-py3",
     packages=[
         'export_action',
     ],
